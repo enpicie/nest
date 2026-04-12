@@ -2,7 +2,7 @@
   url: /
 - label: Stream Setup
   url: /stream-setup
-- label: Commands
-  url: /commands
 - label: Adomin
   url: /adomin
+- label: Commands
+  url: /commands
