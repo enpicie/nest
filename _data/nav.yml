@@ -8,3 +8,5 @@
   url: /adomin
 - label: Commands
   url: /commands
+- label: Notes
+  url: /notes
