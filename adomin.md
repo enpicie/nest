@@ -53,7 +53,9 @@ If new entrants sign up after creation, use `/event-refresh-startgg` to re-sync.
 4. When check-in is over, run `/check-in-toggle` (state: **End**).
 5. Players can report scores with `/startgg-report-score` (this requires players to have Discord properly linked to start.gg to function correctly).
 
-> Score reporting requires authorization via `/startgg-connect` command where a user with permissions to report scores for the event must authorize Adomin to report scores.
+> Recommend setting a check-in start time 30-min before your event start time and running `/check-in-list-absent` pinging users roughly 10-min before start time as a last call reminder, finally turning check-ins at event start time. After check-ins are turned off, that is a good time to remove attendees who did not check-in or DQ them.
+
+**Score reporting requires authorization via `/startgg-connect` command where a user with permissions to report scores for the event must authorize Adomin to report scores.*
 
 ### After the Event
 
