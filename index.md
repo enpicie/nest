@@ -5,7 +5,7 @@ title: Home
 
 # Netplay Event Starter Tools (NEST)
 
-NEST is a set of tools to help you get started running netplay events thru Discord with Adomin Discord bot, OBS stream scenes, and a Discord server template.
+**NEST** is a set of tools to help you get started running netplay events thru Discord with Adomin Discord bot, OBS stream scenes, and a Discord server template.
 
 **Get setup to stream and coordinate events through Discord and let Adomin help out with the work so you can focus on your community.**
 
@@ -13,9 +13,9 @@ Explore this site to learn how you can get started running your own online event
 
 ## Tools
 
-- [Stream Setup](stream-setup) — OBS scenes set up to get you started streaming FGC events
-- [Discord Template](discord) - Template for creating a Discord server for running events
-- [Adomin](adomin) — Guide to using Adomin Discord bot to assist with event adminitration work
+- **[Stream Setup](stream-setup)** — OBS scenes set up to get you started streaming FGC events
+- **[Discord Template](discord)** - Template for creating a Discord server for running events
+- **[Adomin](adomin)** — Guide to using Adomin Discord bot to assist with event adminitration work
 
 ## Key Features with Adomin
 

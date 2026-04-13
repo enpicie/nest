@@ -7,8 +7,8 @@ title: Stream Setup
 
 Open Broadcaster Software (**OBS**) is an app commonly used for streaming and NEST supports a set of OBS scenes to help you get a stream set up. 
 
-- [Download OBS](https://obsproject.com/download).
-- [Download Netplay Tournament Scenes](/nest/assets/Netplay_Tournament_Scenes.json)
+- [Download OBS](https://obsproject.com/download)
+- [Download Netplay Tournament Scenes](/nest/assets/Netplay_Tournament_Scenes.json) (save this JSON file)
 
 
 This set of Netplay Tournament Scenes comes with the following:
