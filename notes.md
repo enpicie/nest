@@ -44,6 +44,14 @@ The goal is to make it easier for people to keep track of events so people can p
 
 **For standalone events, it is most important to plan far in advance.** Remembering an individual event can be difficult if you do not often have to. Picking a date early is critical since it gives people time to ensure that those interested in attending have time to ensure they can make it.
 
+## Why start.gg?
+
+I know start.gg is not always the most convenient site to use; however, it is the platform used to support the biggest events. Most importantly, it aggregates all tournament history for players so TOs can check past results for each player when seeding.
+
+Especially as a T.O. for an older, smaller game (MBAACC) myself, having this data has often helped immensely with seeding. Hosting tournaments on start.gg can be helpful to growing your community and helping your players feel rewarded for their local play.
+
+[FindMyFGC](https://www.findmyfgc.cc/) is also focused on using start.gg for this reason.
+
 ## Commentary
 
 Commentators are a core part of any FGC event stream and are ingrained in what first impressions people may get of your game and community. It is important to **develop a foundation of commentators** or have a basis of strong commentators to ask to help with your events.
