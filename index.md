@@ -11,6 +11,12 @@ NEST is a set of tools to help you get started running netplay events thru Disco
 
 Explore this site to learn how you can get started running your own online events easily with help from Adomin ~☆!
 
+## Tools
+
+- [Stream Setup](stream-setup) — OBS scenes set up to get you started streaming FGC events
+- [Discord Template](discord) - Template for creating a Discord server for running events
+- [Adomin](adomin) — Guide to using Adomin Discord bot to assist with event adminitration work
+
 ## Key Features with Adomin
 
 - Quickly create Discord events for start.gg events
@@ -19,12 +25,6 @@ Explore this site to learn how you can get started running your own online event
 - Report scores on start.gg from Discord
 - Instantly check which registered participants have not yet checked in
 - Server-wide organizer role gating for all management commands
-
-## Quick Links
-
-- [Stream Setup](stream-setup) — Downloads and quick guide
-- [Adomin](adomin) — Guide to using Adomin for events
-- [Commands](commands) — Full Adomin slash command reference
 
 > NEST is currently used for [Midweek Melting](https://www.start.gg/hub/midweek-melting-1) and many other Melty Blood netplay events. Guides and recommendations for using NEST are derived from enpicie's experience running Melty and other FPan events.
 
