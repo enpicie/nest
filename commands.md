@@ -9,7 +9,7 @@ title: Commands
 
 ---
 
-<details>
+<details markdown="1">
 <summary>Event Commands</summary>
 
 All require the **organizer role**.
@@ -29,7 +29,7 @@ All require the **organizer role**.
 
 ---
 
-<details>
+<details markdown="1">
 <summary>Registration Commands</summary>
 
 | Command | Who can use | Description |
@@ -44,7 +44,7 @@ All require the **organizer role**.
 
 ---
 
-<details>
+<details markdown="1">
 <summary>Check-In Commands</summary>
 
 Checking in assigns the event's participant role to the user.
@@ -61,7 +61,7 @@ Checking in assigns the event's participant role to the user.
 
 ---
 
-<details>
+<details markdown="1">
 <summary>Setup Commands</summary>
 
 Require the **Manage Server** Discord permission.
@@ -77,7 +77,7 @@ Require the **Manage Server** Discord permission.
 
 ---
 
-<details>
+<details markdown="1">
 <summary>Score Reporting (start.gg)</summary>
 
 An organizer must run `/startgg-connect` first to link their start.gg account.
@@ -93,7 +93,7 @@ Participants must have their Discord account linked in their start.gg profile un
 
 ---
 
-<details>
+<details markdown="1">
 <summary>Schedule Commands</summary>
 
 All require the **organizer role**. The bot tracks one schedule message per server — a single living post that is edited in place.
@@ -115,7 +115,7 @@ All require the **organizer role**. The bot tracks one schedule message per serv
 
 ---
 
-<details>
+<details markdown="1">
 <summary>League Commands</summary>
 
 Manages long-running leagues via Google Sheets. The league's sheet must be shared with **Editor** access
@@ -140,7 +140,7 @@ to the bot's service account email — run `/league-view` to see that address.
 
 ---
 
-<details>
+<details markdown="1">
 <summary>Help Commands</summary>
 
 | Command | Description |
