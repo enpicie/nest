@@ -2,6 +2,8 @@
   url: /
 - label: Stream Setup
   url: /stream-setup
+- label: Discord
+  url: /discord
 - label: Adomin
   url: /adomin
 - label: Commands
