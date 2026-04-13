@@ -44,6 +44,18 @@ The goal is to make it easier for people to keep track of events so people can p
 
 **For standalone events, it is most important to plan far in advance.** Remembering an individual event can be difficult if you do not often have to. Picking a date early is critical since it gives people time to ensure that those interested in attending have time to ensure they can make it.
 
+## Tournament Seeding
+
+**Seeding is about giving credit to players for performing well in the past.** It affects bracket paths and viewing projections based on seeding shows an anticipated outcome for a bracket. However, competition has so many factors that can affect performance that many direct comparisons invite a lot of subjective bias.
+
+Minimizing risk of bias negatively affecting player experience is best accomplished by...
+1. Grouping players into seeding "tiers" where every player in a tier is projected to likely beat players in tiers below while losing to tiers above
+2. Basing tier placements on tournament results as much as possible
+
+When I seed for events like Frosty Faustings, I weigh offline major results highest; when I seed for netplay tourneys, I weigh major results highly while more strongly considering netplay results. If an objective third party looked at all your data, your seeding decisions should look justifiable based on recent results.
+
+Key factors are **ceiling (highest placements)** and **consistency**. I'll often start by comparing ceiling of results and breaking ties or finer-grained decisions based on consistency. As a competitor, it is encouraging to feel rewarded and recognized for playing well historically. Seeding helps build stable brackets by adequately giving credit to players who have played well by concluding from the results data that they may be likely to play well again.
+
 ## Why start.gg?
 
 I know start.gg is not always the most convenient site to use; however, it is the platform used to support the biggest events. Most importantly, it aggregates all tournament history for players so TOs can check past results for each player when seeding.
