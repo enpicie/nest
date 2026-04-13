@@ -7,7 +7,15 @@ title: Adomin
 
 **Adomi-san** (or **Adomin** for short) is here to help as a Discord event administration assistant. She helps make you manage events organically within Discord, automating work to make events visible, notify event participants, and more! With special training to support FGC tournaments hosted on [start.gg](https://start.gg), she simplifies score reporting while letting you count player check-ins without extra steps in start.gg itself.
 
-Here are some Quick Start guides to get started with events via Adomin! Use the `/help` and `/help-*` commands to get help in Discord.
+Here are some quick start guides to get started with events via Adomin! You can also use the `/help` and `/help-*` commands to get help in Discord and view the [full command reference](commands).
+
+<div style="display: flex; align-items: center; gap: 16px; background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem; padding: 1rem 1.25rem; max-width: 480px;">
+  <img src="adomin.jpg" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0;">
+  <div>
+    <div style="color: #e2e8f0; font-weight: 700; margin-bottom: 0.4rem;">Adomi-san</div>
+    <a href="https://discord.com/oauth2/authorize?client_id=1416260932497178644" style="display: inline-block; background: #6366f1; color: #fff; font-weight: 700; font-size: 0.85rem; padding: 0.4rem 1rem; border-radius: 0.5rem; text-decoration: none;">+ Invite to Server</a>
+  </div>
+</div>
 
 ## Guide
 - [First-Time Server Setup](#first-time-server-setup)
