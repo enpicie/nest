@@ -40,7 +40,7 @@ Apps such as [Carl-bot](https://carl.gg/) can be used to enable reaction-roles i
 
 `/setup-event-reminders` lets you configure default server settings for reminding your community of upcoming events. When reminders are turned on, Adomin will periodically scan and message the configured channel with a reminder message roughly 24-hours ahead of an upcoming event. She will ping a role like `@Event Announcements` if one is set.
 
-`#announcements` is meant to be used as your announcements channel to centralize notifications for your community.
+`#announcements` is meant to be used as your announcements channel to centralize notifications for your community. **You will need to add permissions for Adomin to send messages in this channel.** By default it is limited to `@Organizer` so Adomin's role when she is added will need explicit access to send messages here.
 
 ## Community Recommendations
 
