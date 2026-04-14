@@ -22,7 +22,7 @@ This set of Netplay Tournament Scenes comes with the following:
 
 [Application Audio Capture Plugin](https://obsproject.com/kb/application-audio-capture-guide) - This is needed for capturing audio from Discord or the games
 
-[fgc-scoreboard with customization tool](https://github.com/chzylee/fgc-scoreboard-customizations/releases/tag/v1.0.1) - This is an easy scoreboard to setup and comes with settings in StreamControl to customize colors of the scoreboard and show/hide a logo at the bottom.
+[fgc-scoreboard with customization tool](https://github.com/chzylee/fgc-scoreboard-customizations/releases/tag/v1.0.2) - This is an easy scoreboard to setup and comes with settings in StreamControl to customize colors of the scoreboard and show/hide a logo at the bottom.
 
 > Extract the files in the .zip download and open `StreamControl.exe` in the sc directory to launch the application used to control the scoreboard.
 
