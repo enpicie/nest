@@ -15,7 +15,7 @@ Explore this site to learn how you can get started running your own online event
 
 - **[Stream Setup](stream-setup)** — OBS scenes set up to get you started streaming FGC events
 - **[Discord Template](discord)** - Template for creating a Discord server for running events
-- **[Adomin](adomin/user-guides)** — Guide to using Adomin Discord bot to assist with event adminitration work
+- **[Adomin](adomin/how-she-works)** — Guide to using Adomin Discord bot to assist with event adminitration work
 
 ## Key Features with Adomin
 
