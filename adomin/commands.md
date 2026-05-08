@@ -3,11 +3,21 @@ layout: default
 title: Commands
 ---
 
+<style>
+details { background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem; margin-bottom: 0.5rem; }
+details summary { list-style: none; cursor: pointer; padding: 0.75rem 1rem; font-weight: 600; font-size: 0.95rem; color: #e2e8f0; border-radius: 0.75rem; user-select: none; transition: background 0.15s; display: flex; align-items: center; justify-content: space-between; }
+details summary:hover { background: #263448; }
+details summary::-webkit-details-marker { display: none; }
+details summary::marker { display: none; }
+details summary::after { content: "+"; color: #e2e8f0; font-size: 1.4rem; font-weight: 300; line-height: 1; }
+details[open] summary { border-bottom: 1px solid #334155; border-radius: 0.75rem 0.75rem 0 0; color: #818cf8; }
+details[open] summary::after { content: "−"; }
+details > *:not(summary) { padding: 0.75rem 1rem; }
+</style>
+
 # Commands
 
 > **Organizer role** is configured per-server using `/setup-server`. Most management commands require it.
-
----
 
 <details markdown="1">
 <summary>Event Commands</summary>
@@ -27,8 +37,6 @@ All require the **organizer role**.
 
 </details>
 
----
-
 <details markdown="1">
 <summary>Registration Commands</summary>
 
@@ -41,8 +49,6 @@ All require the **organizer role**.
 | `/register-toggle` | Organizer | Open or close registration for an event |
 
 </details>
-
----
 
 <details markdown="1">
 <summary>Check-In Commands</summary>
@@ -59,8 +65,6 @@ Checking in assigns the event's participant role to the user.
 
 </details>
 
----
-
 <details markdown="1">
 <summary>Setup Commands</summary>
 
@@ -75,8 +79,6 @@ Require the **Manage Server** Discord permission.
 
 </details>
 
----
-
 <details markdown="1">
 <summary>Score Reporting (start.gg)</summary>
 
@@ -90,8 +92,6 @@ Participants must have their Discord account linked in their start.gg profile un
 | `/startgg-notify-unlinked` | Organizer | List participants who haven't linked their Discord on start.gg |
 
 </details>
-
----
 
 <details markdown="1">
 <summary>Schedule Commands</summary>
@@ -112,8 +112,6 @@ All require the **organizer role**. The bot tracks one schedule message per serv
 **Planned events:** use `/schedule-plan-event` to add a placeholder for an event before it exists as a real Discord event. When you later run `/event-create` with the same name (case-insensitive), the placeholder is automatically removed and the schedule is refreshed.
 
 </details>
-
----
 
 <details markdown="1">
 <summary>League Commands</summary>
@@ -137,8 +135,6 @@ to the bot's service account email — run `/league-view` to see that address.
 | `/league-deactivate` | Any user (organizer to target others) | Mark a player as inactive or DNF |
 
 </details>
-
----
 
 <details markdown="1">
 <summary>Help Commands</summary>

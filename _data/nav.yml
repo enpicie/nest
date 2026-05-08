@@ -5,8 +5,12 @@
 - label: Discord
   url: /discord
 - label: Adomin
-  url: /adomin
-- label: Commands
-  url: /commands
+  children:
+    - label: How She Works
+      url: /adomin/how-she-works
+    - label: User Guides
+      url: /adomin/user-guides
+    - label: Commands
+      url: /adomin/commands
 - label: Notes
   url: /notes

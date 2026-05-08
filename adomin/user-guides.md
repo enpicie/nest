@@ -3,25 +3,22 @@ layout: default
 title: Adomin
 ---
 
-# Adomin! ☆
+<style>
+.guide-toc a { display: flex; align-items: center; padding: 0.45rem 0.75rem; border-radius: 0.5rem; color: #c7d2fe; text-decoration: none; font-size: 0.875rem; font-weight: 500; transition: background 0.15s, color 0.15s, box-shadow 0.15s; }
+.guide-toc a::before { content: "•"; color: #6366f1; margin-right: 0.5rem; }
+.guide-toc a::after { content: "›"; color: #818cf8; font-size: 1.2rem; line-height: 1; margin-left: 0.4rem; transition: color 0.15s, transform 0.15s; }
+.guide-toc a:hover { background: #334155; color: #fff; box-shadow: inset 3px 0 0 #6366f1; }
+.guide-toc a:hover::after { color: #a5b4fc; transform: translateX(3px); }
+</style>
 
-**Adomi-san** (or **Adomin** for short) is here to help as a Discord event administration assistant. She helps make you manage events organically within Discord, automating work to make events visible, notify event participants, and more! With special training to support FGC tournaments hosted on [start.gg](https://start.gg), she simplifies score reporting while letting you count player check-ins without extra steps in start.gg itself.
+# User Guides
 
-Here are some quick start guides to get started with events via Adomin! You can also use the `/help` and `/help-*` commands to get help in Discord and view the [full command reference](commands).
-
-<div style="display: flex; align-items: center; gap: 16px; background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem; padding: 1rem 1.25rem; max-width: 480px;">
-  <img src="adomin.jpg" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0;">
-  <div>
-    <div style="color: #e2e8f0; font-weight: 700; margin-bottom: 0.4rem;">Adomi-san</div>
-    <a href="https://discord.com/oauth2/authorize?client_id=1416260932497178644" style="display: inline-block; background: #6366f1; color: #fff; font-weight: 700; font-size: 0.85rem; padding: 0.4rem 1rem; border-radius: 0.5rem; text-decoration: none;">+ Invite to Server</a>
-  </div>
+<div class="guide-toc not-prose">
+  <a href="#first-time-server-setup">First-Time Server Setup</a>
+  <a href="#running-a-startgg-tournament">Running a start.gg Tournament</a>
+  <a href="#running-an-event-eg-exhibition-other-non-tournament-event">Running an Event (Exhibition, etc.)</a>
+  <a href="#running-a-league">Running a League</a>
 </div>
-
-## Guide
-- [First-Time Server Setup](#first-time-server-setup)
-- [Running a start.gg Tournament](#running-a-startgg-tournament)
-- [Running an Event (Exhibition, etc.)](#running-an-event-eg-exhibition-other-non-tournament-event)
-- [Running a League](#running-a-league)
 
 ## First-Time Server Setup
 

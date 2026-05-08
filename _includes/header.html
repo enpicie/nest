@@ -13,10 +13,38 @@
 
     <nav aria-label="Main navigation" class="flex items-center gap-1 flex-wrap">
       {% for item in site.data.nav %}
-      <a href="{{ site.baseurl }}{{ item.url }}"
-         class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800 border border-transparent hover:border-slate-700 transition-colors">
-        {{ item.label }}
-      </a>
+        {% if item.children %}
+        <div class="relative group">
+          <button
+            type="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-300 group-hover:text-white group-hover:bg-slate-800 border border-transparent group-hover:border-slate-700 transition-colors flex items-center gap-1 cursor-default select-none">
+            {{ item.label }}
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:rotate-180" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div
+            role="menu"
+            class="absolute right-0 top-full hidden group-hover:block pt-1 min-w-[160px] z-50">
+            <div class="bg-slate-900 border border-slate-700 rounded-lg shadow-xl py-1">
+            {% for child in item.children %}
+            <a href="{{ site.baseurl }}{{ child.url }}"
+               role="menuitem"
+               class="block px-4 py-2 text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition-colors no-underline">
+              {{ child.label }}
+            </a>
+            {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <a href="{{ site.baseurl }}{{ item.url }}"
+           class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800 border border-transparent hover:border-slate-700 transition-colors">
+          {{ item.label }}
+        </a>
+        {% endif %}
       {% endfor %}
     </nav>
 

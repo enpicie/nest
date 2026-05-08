@@ -6,7 +6,7 @@ title: Discord
 # Discord Template
 
 FGC Netplay Event Server Template (**FNEST**) is a Discord server template that sets you up with these features:
-- Default set of roles to use with [Adomin](adomin) features
+- Default set of roles to use with [Adomin](adomin/user-guides) features
 - Channels to manage check-in, score reporting, and other tournament ongoings
 - Private channels for Commentary and Organizers
 - Announcement, Info, and other channels for community
