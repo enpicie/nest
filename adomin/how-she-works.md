@@ -60,3 +60,13 @@ Imagine this from the perspective of an offline event: Adomin is your assistant 
 To setup Adomin in a server with `setup-server`, you must have Discord's "Manage Server" permission. It's the same permission that lets you change a server's icon.
 
 Any commands that let you manage an event or control anything for other users requires an Organizer role. This is a role you must tell Adomin about when you set things up with `/setup-server`. Adomin checks if someone has that role to count them as an organizer. This cannot be bypassed by Discord permissions.
+
+## Linking start.gg and Discord
+
+One of Adomin's core features is enabling start.gg score reporting and sync from Discord without having to go into start.gg in your browser. To correctly find tournament matches and accomplish this, she must be able to associate a Discord user with a start.gg user.
+
+start.gg supports linking Discord account to your start.gg. Command `/startgg-notify-unlinked` lets you list users who do not have accounts properly linked with instructions for how to link accounts.
+
+When done correctly, you should see something like this on your profile:
+
+![start.gg and Discord linked](../assets/discord-linked.png)

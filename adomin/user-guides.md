@@ -52,7 +52,9 @@ If new entrants sign up after creation, use `/event-refresh-startgg` to re-sync.
 - Recommended to run `/event-refresh-startgg` before this if your registration is open and you may have new entrants to sync.
 
 4. When check-in is over, run `/check-in-toggle` (state: **End**).
-5. Players can report scores with `/startgg-report-score` (this requires players to have Discord properly linked to start.gg to function correctly).
+5. Players can report scores with `/startgg-report-score`
+  - This requires players to have Discord properly linked to start.gg to function correctly.
+  - You can use `/startgg-notify-unlinked` to list users who do not have Discord linked and it gives instructions to fix it.
 
 - Score reporting currently does not work for Teams and only works for individual players as it must connect the user in Discord to their connected start.gg account
 
