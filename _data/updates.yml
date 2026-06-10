@@ -1,0 +1,13 @@
+# NEST changelog — newest first.
+# To post an update: copy a block below, change the values, put it at the TOP.
+#   date:  YYYY-MM-DD (shown to readers)
+#   title: short headline
+#   tags:  optional list — e.g. [Adomin, Docs, Stream]
+#   body:  what changed. Markdown allowed. Use > for multi-line (see example).
+- date: 2026-06-06
+  title: Updates page is live
+  tags: [Site]
+  body: >
+    You can now subscribe to get emails when NEST changes: new Adomin features,
+    stream setup tweaks, and docs. Updates are sent only when there's
+    feature changes and things worth sharing.
