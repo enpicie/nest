@@ -3,7 +3,19 @@
 #   date:  YYYY-MM-DD (shown to readers)
 #   title: short headline
 #   tags:  optional list — e.g. [Adomin, Docs, Stream]
-#   body:  what changed. Markdown allowed. Use > for multi-line (see example).
+#   body:  what changed. Markdown allowed. Use | for multi-line (preserves line breaks).
+- date: 2026-06-09
+  title: New Scoreboard and Adomin features
+  tags: [Scoreboard, Stream, Adomin]
+  body: |
+    **fgc-scoreboard-customizations v1.1.0** adds two new features:
+
+    - **Save pronouns for each player** — not shown on the scoreboard, but saved so organizers and commentators can keep track.
+    - **Toggle showing the score numbers** — useful for casual sets and events where score isn't tracked live, isn't relevant, or where only names need to be shown.
+
+    **Adomin** — the `/startgg-report-score` command now accepts **DQ** as the score, marking the loser as DQ on start.gg to simplify reporting DQs.
+
+    Please don't hesitate to let me know of any issues with either the scoreboard customization or Adomin — best way to reach me is via Discord, and I'll attend to it as soon as I can.
 - date: 2026-06-06
   title: Updates page is live
   tags: [Site]
