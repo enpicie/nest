@@ -48,9 +48,9 @@ sharing** — no fixed schedule, no spam.
 
 <div class="not-prose flex flex-col gap-5 mt-6">
 {% for update in site.data.updates %}
-  <article class="bg-slate-900 border border-slate-800 rounded-xl p-5">
-    <div class="flex items-baseline justify-between gap-3 flex-wrap mb-2">
-      <h3 class="font-bold text-slate-100 text-base m-0">{{ update.title }}</h3>
+  <article class="bg-slate-900 border border-slate-800 rounded-xl px-5 pt-3 pb-5">
+    <div class="flex items-center justify-between gap-3 flex-wrap mb-2">
+      <h3 class="font-bold text-slate-100 text-base !m-0 leading-tight">{{ update.title }}</h3>
       <time datetime="{{ update.date | date_to_xmlschema }}" class="text-xs text-slate-500 whitespace-nowrap">
         {{ update.date | date: "%b %-d, %Y" }}
       </time>
@@ -62,7 +62,14 @@ sharing** — no fixed schedule, no spam.
       {% endfor %}
     </div>
     {% endif %}
+    {% assign body_len = update.body | size %}
+    {% if body_len > 600 %}
+    <input type="checkbox" id="upd-{{ forloop.index }}" class="peer hidden" />
+    <div class="text-sm text-slate-300 leading-relaxed max-h-40 overflow-hidden peer-checked:max-h-none [mask-image:linear-gradient(to_bottom,black_55%,transparent)] peer-checked:[mask-image:none]">{{ update.body | markdownify }}</div>
+    <label for="upd-{{ forloop.index }}" class="inline-block mt-2 text-xs font-semibold text-indigo-400 hover:text-indigo-300 cursor-pointer select-none before:content-['…_Show_more'] peer-checked:before:content-['Show_less']"></label>
+    {% else %}
     <div class="text-sm text-slate-300 leading-relaxed">{{ update.body | markdownify }}</div>
+    {% endif %}
   </article>
 {% endfor %}
 </div>

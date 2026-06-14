@@ -4,6 +4,36 @@
 #   title: short headline
 #   tags:  optional list — e.g. [Adomin, Docs, Stream]
 #   body:  what changed. Markdown allowed. Use | for multi-line (preserves line breaks).
+- date: 2026-06-14
+  title: Custom overlays & standalone scoreboard pieces
+  tags: [Scoreboard, Stream]
+  body: |
+    Pushed a large customization update to the **fgc-scoreboard-customizations** overlay. You can now use the scoreboard with custom overlay artwork and your own branding instead of being locked to the built-in look. Everything is still driven by the same StreamControl flow, so no new workflow is needed to use custom assets.
+
+    **New StreamControl toggles (Customizations tab)**
+
+    - **Hide Background** — hides the shapes drawn behind the text so you can drop the scoreboard text straight onto your own overlay image.
+    - **Hide Score #s** — clearer Show/Hide wording; hides just the score numbers while names/teams stay up.
+    - **Push Names Out / Push Scores Out / Push Pronouns Out** — 0–10 dropdowns that nudge each element symmetrically outward from center, so you can line text up with whatever overlay you're using.
+
+    **Standalone overlay pieces**
+
+    You can now add each part of the scoreboard as its own OBS browser source and position it independently over your artwork:
+
+    - `scoreboard-names.html`
+    - `scoreboard-scores.html`
+    - `scoreboard-round.html`
+    - `scoreboard-pronouns.html` (new pronouns element — symmetric, and offsettable like the rest)
+
+    They all read the same StreamControl data as the full board, so you don't need any extra setup. Just add them as 1920×1080 browser sources, then drag/scale to taste.
+
+    **Bring your own font**
+
+    There's now a clean way to swap in your own font without editing the shared stylesheet. Drop a `style.local.css` next to the others (there's a `.example` to copy) and point it at your font.
+
+    The full board (`scoreboard.html`) works exactly as before — this is just a set of extra customization features.
+
+    Setup details and the font instructions are in the README. If this was helpful or you have any requests or issues, don't hesitate to let me know!
 - date: 2026-06-09
   title: New Scoreboard and Adomin features
   tags: [Scoreboard, Stream, Adomin]
